@@ -1,13 +1,14 @@
-public class AddNumbers {
+public class JavaExample {
+  public static void main(String[] args) {
+    // two integer variables with values
+    // and a variable "sum" to store the result
+    int num1 = 5, num2 = 15,sum;
 
- public static void main(String[] args) {
+    //calculating the sum of num1 and num2 and
+    //storing the result in the variable sum
+    sum = num1+num2;
 
- int num1 = 5, num2 = 10, sum;
-
- sum = num1 + num2;
-
- System.out.println(“Sum of ” + num1 + ” and ” + num2 + ” is: ” + sum);
-
- }
-
+    //printing the result
+    System.out.println("Sum of "+num1+" and "+num2+" is: "+sum);
+  }
 }
